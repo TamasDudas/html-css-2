@@ -1,0 +1,133 @@
+/* 1. Feladat */
+.red-outline {
+  width: 200px;
+  height: 200px;
+  outline: 5px solid red;
+  margin-right: 45px; /* 50px távolság, de az outline összeér */
+  display: inline-block;
+}
+.green-outline {
+  width: 200px;
+  height: 200px;
+  outline: 5px solid green;
+  display: inline-block;
+}
+
+/* 2. Feladat */
+body {
+  color: red; /* Globális szövegszín */
+}
+.named-color {
+  color: blue;
+}
+.hex-color {
+  color: #ff5733;
+}
+.rgb-color {
+  color: rgb(0, 128, 0);
+}
+
+/* 3. Feladat */
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
+.align-justify {
+  text-align: justify;
+}
+
+/* 4. Feladat */
+.rtl-text {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+/* 5-7. Feladat */
+.overline {
+  text-decoration: overline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.underline-overline-line-through {
+  text-decoration: underline overline line-through;
+}
+
+/* 8. Feladat */
+.red-decoration {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* 9. Feladat */
+.line-height {
+  line-height: 0.5;
+}
+
+/* 10. Feladat */
+.word-spacing {
+  word-spacing: -5px;
+}
+
+/* 11. Feladat */
+.white-space {
+  white-space: nowrap;
+}
+
+/* 12. Feladat */
+.text-shadow {
+  text-shadow: 2px 2px 2px gray, 4px 4px 2px black, 6px 6px 2px red;
+}
+
+.container {
+  position: relative;
+  height: 300px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  border: 2px solid black;
+}
+
+#box1 {
+  background-color: red;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+#box2 {
+  background-color: blue;
+  top: 50px;
+  left: 100px;
+  z-index: 3;
+}
+
+#box3 {
+  background-color: green;
+  top: 100px;
+  left: 200px;
+  z-index: 2;
+}
+
+#box4 {
+  background-color: purple;
+  top: 150px;
+  left: 300px;
+  z-index: 1;
+}
